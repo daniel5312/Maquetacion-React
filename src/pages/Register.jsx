@@ -51,7 +51,7 @@ const Register = () => {
   };
 
   return (
-    <div className="register-container" style={{ maxWidth: "400px", margin: "5rem auto", border: "1px solid #ccc", padding: "2rem", borderRadius: "8px" }}> 
+    <div className="register-container" style={{ maxWidth: "400px", margin: "5rem auto", border: "1px solid #ccc", padding: "2rem", borderRadius: "8px" }}>
       <h2 style={{ textAlign: "center" }}>Crear una cuenta</h2>
 
       {error && <p style={{ color: "red", textAlign: "center" }}>{error}</p>}
